@@ -10,7 +10,7 @@ class crack:
 		try:
 			self.fl=open(raw_input("?: id list file: ")).read().splitlines()
 		except Exception as e:
-			print "!: %s" (%e)
+			print "!: %s" %e"
 			crack()
 		print "+ example pass123,pass12345"
 		self.pwlist()
